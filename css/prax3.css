@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+}
+
+.start-button {
+    margin-top: 20px;
+}
+
+#game-board {
+    display: none;
+}
+
+.empty {
+    background-color: beige;
+}
+
+.ship {
+    color: #333;
+}
+
+.used {
+    color: #ccc;
+}
+
+.destroyed {
+    color: red;
+}
+
+.square-user, .square-computer {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.square-user:hover, .square-computer:hover {
+    border: 1px solid red;
+    cursor: not-allowed;
+}
+
+.square-computer:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.board-row {
+    display: inline-block;
+}
+
+#userBoard, #computerBoard {
+    margin-bottom: 15px;
+    line-height: 0px;
+}
+
+.userError, .computerError {
+    color: coral;
+}
+
+.userSuccess, .computerSuccess {
+    color: darkcyan;
+}
